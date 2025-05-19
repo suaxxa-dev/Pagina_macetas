@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macetas de Encanto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+    <style>
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        .animate-slide {
+            animation: slide 3s linear infinite;
+        }
+    </style>
+</head>
+
+<body class="h-screen bg-pink-50 flex flex-col justify-between">
+    <nav
+        class="bg-pink-200 h-20 px-8 flex text-pink-900 justify-between items-center fixed inset-x-0 top-0 z-30 shadow-md">
+        <div class="flex items-center gap-4">
+            <img src="assets/logo.png" alt="Logo"
+                class="h-16 w-auto rounded-lg shadow-lg border-4 border-white bg-white p-1" />
+            <span class="text-2xl font-bold tracking-wide">Macetas de Katalehia</span>
+        </div>
+        <div class="text-md flex gap-6 font-medium">
+            <a href="index.html"
+                class="hover:text-white transition duration-300 hover:bg-pink-400 px-3 py-1 rounded-md">Inicio</a>
+                <a href="Galeria.html"
+                class="hover:text-white transition duration-300 hover:bg-pink-400 px-3 py-1 rounded-md">Galería</a>
+            <a href="acerda_de.html"
+                class="hover:text-white transition duration-300 hover:bg-pink-400 px-3 py-1 rounded-md">Acerca De</a>
+            <a href="contacto.html" class="hover:text-white transition duration-300 hover:bg-pink-400 px-3 py-1 rounded-md">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="mt-20 py-6 bg-pink-100 flex justify-center">
+        <div class="max-w-5xl w-full h-full">
+            <img
+                src="assets/Banner Horizontal Helado Ilustrado Rosa.png"
+                alt="Promoción especial: 20% de descuento en macetas"
+                class="w-full rounded-lg shadow-lg"
+            />
+        </div>
+    </section>
+
+    <main class="flex-grow py-16">
+        <h2 class="text-3xl font-black text-center mb-8 text-pink-700">Introducción</h2>
+
+        <h1 class="text-4xl font-bold mb-4 text-center">Decora tu hogar con estilo y amor natural 🌱</h1>
+
+        <p class="mb-6 text-center">Macetas artesanales de yeso, hechas con dedicación y creatividad.</p>
+
+        <p class="mb-4 text-center">🌿 <strong>Bienvenidos a Macetas Katalehia</strong> 🌿</p>
+
+        <p class="mb-4 text-center">
+            Donde el diseño y la naturaleza se encuentran. En nuestra tienda encontrarás una amplia variedad de macetas
+            que combinan estilo, funcionalidad y amor por las plantas.
+        </p>
+
+        <p class="mb-4 text-center">
+            Desde piezas artesanales hasta diseños modernos, cada maceta está pensada para realzar la belleza de tus
+            espacios y cuidar de tus plantas con el cariño que merecen.
+        </p>
+
+        <p class="text-center">
+            Ya sea que tengas un pequeño rincón verde o un jardín completo, aquí encontrarás la inspiración perfecta para
+            decorar con vida. 🌱
+        </p>
+    </main>
+
+
+    <div class="w-full overflow-hidden">
+        <div class="animate-slide bg-gradient-to-r from-pink-100 via-pink-200 to-pink-100 h-2"></div>
+    </div>
+
+    <section class="py-12 px-6 text-center">
+        <h2 class="text-2xl font-bold mb-4">Acerca de Nosotros</h2>
+        <p class="max-w-xl mx-auto">Somos un pequeño emprendimiento que crea macetas de yeso a mano, con diseños
+            personalizados para alegrar tu hogar u oficina. ¡Cada pieza es única!</p>
+    </section>
+
+    <section id="galeria" class="py-12 px-6 bg-pink-100 text-center">
+        <h2 class="text-2xl font-bold mb-8">Productos Destacados</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="bg-white rounded-lg shadow p-4">
+                <img src="assets/maceta blanca nieves.webp" alt="Maceta Blanca Nieves"
+                    class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-lg font-semibold">Maceta Blanca nieves</h3>
+                <p class="text-sm">Ideal para habitaciones infantiles.</p>
+                <a href="https://wa.me/573214899434" target="_blank"
+                    class="mt-3 inline-block text-sm text-green-600 font-medium hover:underline">Solicitar por WhatsApp</a>
+            </div>
+            <div class="bg-white rounded-lg shadow p-4">
+                <img src="assets/maceta muñeca silencio.webp" alt="Maceta Geométrica"
+                    class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-lg font-semibold">Maceta Silencio</h3>
+                <p class="text-sm">Diseño moderno y caricaturesco.</p>
+                <a href="https://wa.me/573214899434" target="_blank"
+                    class="mt-3 inline-block text-sm text-green-600 font-medium hover:underline">Solicitar por WhatsApp</a>
+            </div>
+            <div class="bg-white rounded-lg shadow p-4">
+                <img src="assets/maceta cilindro octagono.webp" alt="Maceta octagono"
+                    class="w-full h-48 object-cover rounded-md mb-4">
+                <h3 class="text-lg font-semibold">Maceta octagono </h3>
+                <p class="text-sm">Perfecta para una decoracion minimalista y seria.</p>
+                <a href="https://wa.me/573214899434" target="_blank"
+                    class="mt-3 inline-block text-sm text-green-600 font-medium hover:underline">Solicitar por WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-6 text-center">
+        <h2 class="text-2xl font-bold mb-8">Testimonios</h2>
+        <div class="max-w-3xl mx-auto">
+            <p class="italic">"Las macetas son hermosas y de excelente calidad. ¡Recomiendo totalmente!"</p>
+            <p class="mt-4 italic">"Me encantó el diseño personalizado que hicieron para mi oficina."</p>
+        </div>
+    </section>
+
+    <section class="py-12 px-6 bg-pink-100 text-center">
+        <h2 class="text-2xl font-bold mb-8">Preguntas Frecuentes</h2>
+        <div class="max-w-3xl mx-auto text-left">
+            <h3 class="font-semibold">¿Hacen envíos?</h3>
+            <p class="mb-4">Sí, realizamos envíos a todo el país.</p>
+            <h3 class="font-semibold">¿Puedo personalizar el diseño?</h3>
+            <p class="mb-4">¡Por supuesto! Contáctanos para discutir tu idea.</p>
+            <h3 class="font-semibold">¿Qué tamaños tienen?</h3>
+            <p>Ofrecemos macetas en tamaños pequeño, mediano y grande.</p>
+        </div>
+    </section>
+
+    <section class="py-12 px-6 text-center">
+        <h2 class="text-2xl font-bold mb-4">¿Listo para decorar tu espacio?</h2>
+        <p class="mb-6">Contáctanos y encuentra la maceta perfecta para ti.</p>
+        <a href="https://wa.me/573214899434" target="_blank"
+            class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg shadow-lg transition">Hablar por WhatsApp</a>
+    </section>
+
+    <a href="https://wa.me/573214899434" target="_blank"
+        class="fixed bottom-6 right-6 bg-pink-400 hover:bg-pink-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition transform duration-300 z-40">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <footer class="bg-pink-200 text-center py-6 text-pink-800 shadow-inner">
+        <p class="text-lg font-medium">Gracias por visitar <span class="font-bold">Macetas de Katalehia</span> 🌸</p>
+        <div class="mt-2 flex justify-center gap-4 text-xl">
+            <a href="#" class="hover:text-white transition"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-white transition"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-white transition"><i class="fab fa-pinterest"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
